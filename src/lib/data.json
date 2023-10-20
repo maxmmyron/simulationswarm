@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SEARCHSYSTEM",
+    "href": "https://www.searchsystem.co/",
+    "desc": "SearchSystem™ is an ever-growing collection of references and tools for designers. Curated by Julien Van Havere.",
+    "type": "design",
+    "color": "gray",
+    "preview": "searchsystem.jpg"
+  },
+  {
+    "name": "iconic",
+    "href": "https://iconic.app/",
+    "desc": "Free, “do wtf you want with” pixel-perfect icons.",
+    "type": "icons",
+    "color": "gray",
+    "preview": "iconic.jpg"
+  },
+  {
+    "name": "Radix Icons",
+    "href": "https://www.radix-ui.com/icons",
+    "desc": "A crisp set of 15x15 icons designed by the WorkOS team.",
+    "type": "icons",
+    "color": "gray",
+    "preview": "radix-icons.png"
+  }
+]
