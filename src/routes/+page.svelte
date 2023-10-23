@@ -2,9 +2,9 @@
   import data from "$lib/data.json";
 </script>
 
-<main>
-  <h1>simulationswarm is a curated index of asset collections and design reference collages. stop adding new collections to a word doc—add them here instead.</h1>
+<h1>simulationswarm is a curated index of asset collections and design reference collages.</h1>
 
+<main>
   {#each data as listing}
     <article>
       <img src="/img/{listing.preview}" alt={listing.name} />
@@ -22,11 +22,17 @@
 </main>
 
 <style>
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
   article {
     border: 1px solid black;
     padding: 1rem;
     margin: 1rem 0;
     max-width: 500px;
+    height: fit-content;
   }
 
   article > img {
